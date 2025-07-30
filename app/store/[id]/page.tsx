@@ -12,8 +12,10 @@ function Product() {
 
                     <h2 className='text-2xl font-bold text-orange-600 mb-4'>Product Details</h2>
                     <p className='text-gray-600 mb-4 text-lg font-semi'>Product description</p>
-                    <p className='text-gray-800 font-semibold mb-4'>Product price $100</p>
-                    <button className='bg-orange-600 text-white p-2 mt-12 rounded-lg hover:bg-gray-600 hover:text-white hover:scale-120 transition-all duration-300 cursor-pointer '>Add to Cart</button>
+                    <p className='text-gray-800 font-semibold mb-4'>Product price <span className='text-orange-600 font-bold'> $100</span></p>
+
+                    <button className='bg-orange-600 h-12 w-12 text-white p-2 mt-12 rounded-lg hover:bg-gray-600 hover:text-white hover:scale-120 transition-all duration-300 cursor-pointer'>+ 1</button>
+                    <button className='bg-orange-600 h-12 w-12 ml-6  text-white p-2 mt-12 rounded-lg hover:bg-gray-600 hover:text-white hover:scale-120 transition-all duration-300 cursor-pointer '> - 1</button>
                 </div>
 
                 <div className='col-span-3 bg-gray-100 p-4 rounded-lg shadow-xl '>
