@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface IProductItem {
+export interface IProductItem {
     id: string;
     img: string;
     title: string;
