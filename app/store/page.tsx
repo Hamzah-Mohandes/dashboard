@@ -1,8 +1,11 @@
+import Container from '../components/Container'
 import React from 'react'
 
 function Store() {
     return (
-        <div>Store</div>
+        <Container>
+            Store
+        </Container>
     )
 }
 
