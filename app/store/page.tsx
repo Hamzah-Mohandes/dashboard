@@ -1,4 +1,5 @@
 import Container from '../components/Container'
+import Link from 'next/link'
 import ProductItem from '../components/ProductItem'
 import React from 'react'
 
@@ -42,8 +43,12 @@ function Store() {
             <div className='grid grid-cols-4 gap-4 mt-4'>
                 {
                     productsMockup.map((item) => (
-                        <ProductItem key={item.id}{...item} />
-                    ))
+                        <Link key={item.id} href={`/store/${item.id}`}>
+                            <ProductItem {...item} />
+                        </Link>
+
+                    )
+                    )
                 }
             </div>
         </Container >
