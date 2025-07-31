@@ -65,7 +65,7 @@ Dark Mode implementieren
 📄 Lizenz
 Dieses Projekt ist lizenziert unter der MIT-Lizenz.
 
-## Erstellt mit ❤️ von Ihrem Team
+## Erstellt mit ❤️ von Hamzah
 
 ```
 
