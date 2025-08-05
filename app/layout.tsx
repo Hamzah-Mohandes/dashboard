@@ -2,6 +2,7 @@ import "./globals.css";
 
 import Layout from "./components/Layout";
 import type { Metadata } from "next";
+import { ShoppingCartContextProvider } from "./context/ShoppingCartContext";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
-        <Layout>
-          {children}
-        </Layout>
+        <ShoppingCartContextProvider>
+          <Layout>
+            {children}
+          </Layout>
+        </ShoppingCartContextProvider>
       </body>
     </html>
   );
